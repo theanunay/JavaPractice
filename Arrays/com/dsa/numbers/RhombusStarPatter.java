@@ -1,4 +1,4 @@
-package com.dsa.starpattern;
+package com.dsa.numbers;
 
 import java.util.Scanner;
 
