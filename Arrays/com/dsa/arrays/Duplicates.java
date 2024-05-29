@@ -11,7 +11,7 @@ public class Duplicates {
         }
         return rd;
     }
-    public static int removeDuplicatesUnorderedArray(int[] arr, int val){
+    public static int[] removeDuplicatesUnorderedArray(int[] arr, int val){
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != val){
@@ -19,7 +19,7 @@ public class Duplicates {
                 count++;
             }
         }
-        return count;
+        return arr;
     }
 
     public static void main(String[] args) {
