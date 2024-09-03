@@ -19,7 +19,7 @@ public class BubbleSort {
         int n = arr.length;
 
         for (int i = 0; i < n-1; i++) {
-            int sm = i;
+            int sm = i; //smallest
             for (int j = i+1; j <n; j++) {
                 if (arr[sm] > arr[j]){
                     sm = j;
